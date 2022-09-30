@@ -19,7 +19,6 @@ font-family: 'Rochester', cursive; */
 } */
 
 body {
-    padding: 20px;
     background-color: #F5F5F5;;
 }
 
@@ -327,6 +326,79 @@ main {
 }
 
 .footer {
+    width: 100%;
     display: grid;
-    
+    grid-template-rows: 333px 74px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    background-color: #FFFFFF;
+}
+
+.foot-logo h3 {
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #1B2437;
+    margin: 32px 0px 0px 165px;
+}
+
+.foot-logo p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C5C5C;
+    margin-left: 165px;
+    margin-top: 24px;
+    width: 255px;;
+}
+
+.foot-text h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 45px;
+}
+
+.foot-text ul {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 22px;
+    color: #8E8E93;
+}
+
+.references-inf {
+    grid-column: 1/4;
+    background-color: #E5E5EA;
+}
+
+.references-inf p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #8E8E93;
+    margin: 22px 0px 0px 165px;
+}
+
+.references-media {
+    grid-column: 4/6;
+    background-color: #E5E5EA;
+}
+
+.references-media img {
+    margin: 30px 0px 0px 40px;
 }
