@@ -1,22 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&family=Playfair+Display:wght@400;700;900&family=Rochester&display=swap');
 
-/* font-family: 'Mulish', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Rochester', cursive; */
-
-/* .header {
+.header {
     display: grid;
-    width: 100%;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: 75px 75px 570px;
+    margin-bottom: 70px;
 }
 
-.head-inf {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
+.inf-name {
+    grid-column: 1/4;
 }
 
-.head-nav {
-    
-} */
+.inf-name p {
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #1B2437;
+    margin: 16px 0px 0px 165px;
+}
+
+.inf-media {
+    grid-column: 4/6;
+}
+
+.inf-media>img {
+    margin: 31px 0px 0px 40px;
+}
+
+.inf-action>img {
+    margin: 31px 0px 0px 40px;
+}
+
+.inf-action {
+    grid-column: 7/9;
+}
+
+.ref1 {
+    grid-column: 3/4;
+    grid-row-start: 2;
+}
+
+.ref2 {
+    grid-column: 4/5;
+    grid-row-start: 2;
+}
+
+.ref3 {
+    grid-column: 5/6;
+    grid-row-start: 2;
+}
+
+.ref4 {
+    grid-column: 6/7;
+    grid-row-start: 2;
+}
+
+.ref {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;    
+    text-decoration: none;
+}
+
+.ref>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.ref>a:hover {
+    color: #EDA3B5;
+}
+
+
+.head-content {
+    grid-column: 1/9;
+    grid-row: 3/4;
+    background-image: url('./images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-content>h3 {
+    width: 361px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin: 103px 0px 0px 164px;
+}
+
+.head-content>p {
+    width: 446px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;  
+    margin: 13px 0px 0px 164px; 
+}
+
+.head-content>button {
+    width: 255px;
+    height: 77px;
+    left: 165px;
+    top: 527px;
+    background-color: #1B2437;
+    border: 0px;
+    border-radius: 15px;
+    margin: 34px 0px 0px 164px; 
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.head-content>button:hover {
+    background-color: #EDA3B5;
+}
 
 body {
     background-color: #F5F5F5;;
