@@ -447,7 +447,6 @@ main {
 
 .foot-logo h3 {
     font-family: 'Rochester';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 41px;
@@ -457,7 +456,6 @@ main {
 
 .foot-logo p {
     font-family: 'Playfair Display';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
@@ -469,7 +467,6 @@ main {
 
 .foot-text h3 {
     font-family: 'Playfair Display';
-    font-style: normal;
     font-weight: 900;
     font-size: 18px;
     line-height: 30px;
@@ -479,7 +476,6 @@ main {
 
 .foot-text ul {
     font-family: 'Mulish';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
@@ -494,7 +490,6 @@ main {
 
 .references-inf p {
     font-family: 'Mulish';
-    font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 30px;
